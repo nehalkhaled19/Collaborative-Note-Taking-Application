@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+* {
+  font-family: sans-serif;
+     margin: 0;
+ }
+ body{
+     background-image: url(Images/flat-lay-desk-concept-with-copy-space.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ 
+ .new-button {
+     background: #aebfce;
+     padding: 10px 15px;
+     position: absolute;
+     right: 5px;
+     top: 5px;
+     bottom: 5px;
+     font-size: 20px;
+     font-weight: 500;
+     border: 0;
+ }
+ 
+ .new-button:active,  .new-button:hover{
+     background: #cbd7e2 !important;
+ }
+ .form-control{
+     border: 3px solid transparent !important; 
+ }
+ .form-control:focus{
+     border: 3px solid #b7c0c9 !important; 
+     box-shadow: 0 0 0;
+ }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+ .show {
+     right: 20px; /* Bring it into view */
+ }
+ .done{
+     text-decoration: line-through;
+     /* color: gray; */
+ }
